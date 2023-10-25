@@ -1,3 +1,37 @@
 *{
     font-family: 'Nova Square', sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-style{
+    /* background-color: #fff; */
+    height: 15vh;
+    width: 100vw;
+}
+.style-logo{
+    height: 100px;
+    /* width: 200px; */
+}
+header{
+    height: 100vh;
+    
+}
+.img-header{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgba(255, 255, 255, 0) ), url('./media/switzerland-862870_1920.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 200px;
+    font-size: 100px;
+    letter-spacing: 10px;
+    color: darkred;
+}
+.img-cover{
+    width: 100vw;
+
+}
+

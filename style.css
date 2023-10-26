@@ -1,10 +1,29 @@
 *{
     font-family: 'Nova Square', sans-serif;
 }
+:root{
+    --my-white:#ececec;
+    --my-gray: rgb(97, 97, 97);
+    --my-darkred: darkred;
+}
+.my-darkred{
+    color: darkred;
+}
+.my-gray{
+    color: var(--my-gray);
+}
+
+.my-white{
+    color: var(--my-white);
+}
+
+h1,h2,h3,h4,h5{
+    color: darkred;
+}
 body{
     /* margin: 0;
     padding: 0; */
-    background-color: #ececec;
+    background-color: var(--my-white);
 }
 .nav-style{
     background-color: #ececec;
@@ -40,10 +59,92 @@ h4{
 }
 .virgolette {
     color: darkred;
+    font-size: 30px;
+    letter-spacing: 20px;
 }
 
 .citazione{
    height: 20vh;
    width: 50vw;
    color: rgb(97, 97, 97);
+   font-size: 25px;
+}
+.container-timeline{
+    height: 30vh;
+}
+.icons-timeline{
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: darkred;
+}
+.p-icone{
+    color: rgb(97, 97, 97);
+}
+.border-timeline{
+    border-bottom: 2px solid darkred;
+}
+.border-timeline::before{
+    content: '';
+    background-color: #ececec;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: -11px;
+}
+.container-alberi{
+    height: 100vh;
+
+}
+.img-alberi{
+    background-image: url('./media/trees2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-alberi{
+    background-color: darkred;
+    border: none;
+    padding: 10px 50px;
+    color: var(--my-white);
+
+}
+.timeline-style{
+    border-left: 3px solid darkred;
+    height: 80vh;
+    flex-wrap: nowrap;
+    font-size: 20px;
+}
+.timeline-ball::before{
+    content: '';
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -11px;   
+}
+
+.bg-albero{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+}
+.albero{
+    height: 75%;
+}
+.img-ourteam{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 4px solid darkred;
 }

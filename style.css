@@ -2,13 +2,13 @@
     font-family: 'Nova Square', sans-serif;
 }
 body{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #ececec;
 }
 .nav-style{
-    /* background-color: #fff; */
+    background-color: #ececec;
     height: 15vh;
-    width: 100vw;
 }
 .style-logo{
     height: 100px;
@@ -19,10 +19,11 @@ header{
     
 }
 .img-header{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgba(255, 255, 255, 0) ), url('./media/switzerland-862870_1920.jpg');
+    background-image: linear-gradient(to bottom, #ececec , rgba(255, 255, 255, 0) ), url('./media/switzerland-862870_1920.jpg');
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 h1{
     margin-top: 200px;
@@ -34,4 +35,15 @@ h1{
     width: 100vw;
 
 }
+h4{
+    font-size: 25px;
+}
+.virgolette {
+    color: darkred;
+}
 
+.citazione{
+   height: 20vh;
+   width: 50vw;
+   color: rgb(97, 97, 97);
+}

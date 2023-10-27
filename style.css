@@ -39,7 +39,7 @@ body{
 }
 header{
     height: 100vh;
-    
+
 }
 .img-header{
     background-image: linear-gradient(to bottom, #ececec , rgba(255, 255, 255, 0) ), url('./media/switzerland-862870_1920.jpg');
@@ -74,7 +74,7 @@ h4{
    font-size: 23px;
 }
 .container-timeline{
-    height: 30vh;
+    height: 80vh;
     width: 100%;
 }
 .icons-timeline{
@@ -100,7 +100,6 @@ h4{
 }
 .container-alberi{
     height: 100vh;
-
 }
 .img-alberi{
     background-image: url('./media/trees2.png');
@@ -116,7 +115,7 @@ h4{
 
 }
 .our-timeline{
-    height: 100vh;
+    height: 50%;
 }
 .timeline-style{
     border-left: 3px solid darkred;
@@ -132,25 +131,22 @@ h4{
     height: 20px;
     width: 20px;
     position: absolute;
-    left: 52px;   
-}
-
-.container-timeline2{
-    height: 80vh;
+    left: 52px;
 }
 
 .bg-albero{
-    /* background-color: aqua; */
     position: absolute;
     right: 0;
+    bottom: 0;
     height: 100%;
     display: flex;
     align-items: end;
     justify-content: end;
-    
+
 }
 .container-ourteam{
     min-height: 55vh;
+    margin-top: 25px;
 }
 
 .img-ourteam{
@@ -187,12 +183,40 @@ h4{
 
 
 
-
-
-
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 400px){
     .albero{
         display: none;
+    }
+    .container-timeline{
+        height: 20%;
+        width: 100%;
+    }
+    .citazione{
+        font-size: 17px;
+        margin-bottom: 150px;
+    }
+}
+@media screen and (max-width: 850px){
+    .albero{
+        display: none;
+    }
+    .container-timeline{
+        height: 30%;
+        width: 100%;
+    }
+    .citazione{
+        font-size: 17px;
+        margin-bottom: 100px;
+        background-color: red;
+    }
+}
+@media screen and (max-width: 1325px){
+    .albero{
+        display: none;
+    }
+    .container-timeline{
+        height: 40%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 1460px){
@@ -210,5 +234,3 @@ h4{
         font-size: 14px;
     }
 }
-
-

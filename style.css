@@ -171,6 +171,9 @@ h4{
 .piedino-color{
     background-color: var(--my-darkred);
 }
+.img-piedino{
+    width: 100%;
+}
 
 
 
